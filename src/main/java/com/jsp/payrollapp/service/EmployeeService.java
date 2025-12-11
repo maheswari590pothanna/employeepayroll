@@ -5,7 +5,8 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.jsp.employeepayroll.entity.Employee;
+import com.jsp.payrollapp.entity.Employee;
+
 
 @Service
 public class EmployeeService {

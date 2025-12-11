@@ -13,8 +13,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.jsp.employeepayroll.entity.Employee;
-import com.jsp.employeepayroll.service.EmployeeService;
+import com.jsp.payrollapp.entity.Employee;
+import com.jsp.payrollapp.service.EmployeeService;
+
 @RestController
 @RequestMapping("/employees")
 public class EmployeeController {
